@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kmeans.css">
+    <title>KMeans Clustering</title>
+</head>
+<body>
+    <script src="eel.js"></script>
+    <script src="kmeans.js"></script>
+    <div class="main-div">
+        <div class="header">KMeans Clustering</div>
+        <div class="div-container">
+            <div class="first-div">
+                <label for="numclusters">Enter No of Clusters</label>
+                <input type="text" id="numclusters" placeholder="Enter total clusters.." onkeydown="checkEnter(event)">
+                <div class="cluster-fields"></div>
+                <button class="kmeans-btn" onclick="processKMeans()">Process KMeans</button>
+                <div class="scrollable-div">
+                    <div class="output-container">
+                    </div>
+                </div>
+            </div>
+            <div class="second-div">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search Product...">
+                    <button id="search-button" onclick="searchProducts()">Search</button>
+                </div>
+                <p class="product">Recomended Products</p>
+                <div class="search-results" id="search-results"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+Paracetamol,Prescription Drug A,Cough Syrup
+Multivitamins,Antihistamines
+Paracetamol,Cough Syrup,Prescription Drug B
+Insulin,Paracetamol,Cough Syrup,Antibiotics
+Vitamin C,Allergy Medication,Paracetamol,Ibuprofen
+Painkillers,Paracetamol
+Ointment,Prescription Drug A,Antibiotics
+Multivitamins,Cough Syrup,Aspirin
+Painkillers,Antibiotics,Ibuprofen,Paracetamol
+Statins,Aspirin,Antibiotics,Insulin
+Paracetamol,Vitamin C,Prescription Drug B
+Cough Syrup,Antihistamines,Ointment,Multivitamins
+Prescription Drug A,Allergy Medication,Multivitamins
+Cough Syrup,Aspirin,Paracetamol,Ointment
+Antibiotics,Statins,Cough Syrup,Multivitamins
+Ibuprofen,Allergy Medication,Statins
+Painkillers,Prescription Drug B,Allergy Medication,Aspirin
+Ointment,Cough Syrup
+Paracetamol,Prescription Drug B,Antihistamines,Antibiotics
+Insulin,Antibiotics,Prescription Drug B
+Paracetamol,Prescription Drug B,Ointment,Multivitamins,Cough Syrup
+Paracetamol,Antibiotics,Antihistamines
+Painkillers,Cough Syrup
+Antihistamines,Antibiotics,Painkillers
+Aspirin,Statins,Allergy Medication,Ibuprofen
+Painkillers,Statins,Allergy Medication,Cough Syrup
+Allergy Medication,Insulin,Aspirin,Ointment,Multivitamins
+Allergy Medication,Statins,Painkillers,Antibiotics
+Prescription Drug A,Cough Syrup,Insulin,Antibiotics
+Allergy Medication,Multivitamins,Cough Syrup,Antibiotics
+Antibiotics,Statins,Aspirin
+Antibiotics,Paracetamol,Painkillers,Cough Syrup
+Antibiotics,Paracetamol,Ointment,Allergy Medication,Statins
+Cough Syrup,Paracetamol,Antibiotics,Ointment
+Paracetamol,Cough Syrup,Statins,Allergy Medication
+Ointment,Cough Syrup,Painkillers
+Multivitamins,Painkillers
+Allergy Medication,Paracetamol
+Insulin,Paracetamol,Prescription Drug A
+Antibiotics,Allergy Medication,Antihistamines
+Painkillers,Prescription Drug B,Allergy Medication,Statins
+Statins,Prescription Drug A,Allergy Medication
+Antibiotics,Cough Syrup,Multivitamins,Statins
+Statins,Allergy Medication,Multivitamins
+Aspirin,Ointment
+Antibiotics,Allergy Medication,Ointment
+Statins,Multivitamins
+Cough Syrup,Allergy Medication,Multivitamins,Painkillers
+Multivitamins,Prescription Drug B,Allergy Medication
+Paracetamol,Cough Syrup,Allergy Medication,Statins
+Allergy Medication,Prescription Drug A,Multivitamins
+Multivitamins,Painkillers,Prescription Drug B,Allergy Medication
+Allergy Medication,Cough Syrup,Multivitamins,Aspirin
+Statins,Cough Syrup,Multivitamins,Aspirin
+Antibiotics,Statins,Paracetamol,Aspirin
+Statins,Aspirin,Antibiotics,Allergy Medication
+Cough Syrup,Prescription Drug B,Allergy Medication,Statins
+Multivitamins,Statins,Allergy Medication,Antibiotics
+Cough Syrup,Allergy Medication,Painkillers,Multivitamins
+Multivitamins,Statins,Aspirin,Painkillers
+Multivitamins,Prescription Drug A,Statins,Antibiotics
+Antibiotics,Statins,Cough Syrup,Multivitamins,Paracetamol
+Cough Syrup,Allergy Medication,Multivitamins,Statins
+Statins,Allergy Medication,Painkillers,Multivitamins
+Paracetamol,Multivitamins,Cough Syrup,Statins
+Antibiotics,Allergy Medication,Multivitamins,Aspirin
+Multivitamins,Prescription Drug B,Statins,Allergy Medication
+Multivitamins,Allergy Medication,Cough Syrup,Painkillers
+Statins,Allergy Medication,Prescription Drug B,Aspirin
+Multivitamins,Statins,Prescription Drug A,Aspirin
+Statins,Prescription Drug A,Multivitamins,Allergy Medication
+Cough Syrup,Statins,Multivitamins,Painkillers
+Statins,Cough Syrup,Allergy Medication,Painkillers
+Cough Syrup,Statins,Painkillers,Allergy Medication
+Statins,Cough Syrup,Prescription Drug B,Multivitamins
+Cough Syrup,Statins,Multivitamins,Aspirin
+Statins,Prescription Drug B,Allergy Medication,Painkillers
+Cough Syrup,Statins,Multivitamins,Paracetamol
+Multivitamins,Cough Syrup,Allergy Medication,Aspirin
+Statins,Paracetamol,Cough Syrup,Painkillers
+Cough Syrup,Allergy Medication,Multivitamins,Prescription Drug A
+Allergy Medication,Multivitamins,Statins,Aspirin
+Cough Syrup,Multivitamins,Allergy Medication,Prescription Drug B
+Cough Syrup,Multivitamins,Allergy Medication,Statins
+Multivitamins,Allergy Medication,Statins,Prescription Drug B
+Cough Syrup,Multivitamins,Statins,Aspirin
+Cough Syrup,Multivitamins,Prescription Drug A,Statins
+Statins,Allergy Medication,Multivitamins,Aspirin
+Cough Syrup,Multivitamins,Statins,Paracetamol
+Multivitamins,Statins,Allergy Medication,Aspirin
+Cough Syrup,Statins,Paracetamol,Allergy Medication
+

@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #2C5364);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #2C5364);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* padding: 5%; */
+    /* background-image: linear-gradient(rgba(0, 8, 50, 0.9), rgba(0,8,50,0.9)), url(images/background.jpg); */
+    background-position: left;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.search-bar{
+    max-height: 80px;
+    max-width: 500px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: left;
+    border-radius: 50px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    margin-top: -50px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+
+}
+
+::placeholder{
+    color: #cac7ff;
+}
+
+.search-bar button img{
+    width: 25px;
+
+}
+
+#search {
+    border:0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #133240;
+    cursor: pointer;
+}
+#search2 {
+  border:0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #133240;
+  cursor: pointer;
+}
+#permu{
+    width: 12rem;
+    height: 2rem;
+    background-color: rgba(255,255,255,0.2);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 60px;
+    bottom: 10px;
+    right: 0;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.results{
+    color: black;
+    font-style: bold;
+    text-align: left ;
+    top: 60%;
+    left: 100px;
+    position: fixed;
+    font-size: 110%;
+    
+}
+/* .results a{
+    color: rgb(2, 2, 160);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    font-size: 110%;
+} */
+
+.container h1{
+    margin-top: -38%;
+    margin-left: 12%;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.548) ;
+    font: italic small-caps bold 70px/2 cursive;
+}
+
+#logo {
+    width: 240px; /* Set the width of the image */
+    height: auto;
+    position: absolute;
+    top: 0%; /* Place the logo at the top of the container */
+    left: 32%; /* Place the logo at the left of the container */
+    
+
+}
+
+#logo1 {
+    width: 250px; /* Set the width of the image */
+    height: auto;
+    position: absolute;
+    top: 30%; /* Place the logo at the top of the container */
+    right: 38%; /* Place the logo at the left of the container */
+}
+#box {
+    width: 340px; /* Set the width of the image */
+    height: auto;
+    position: absolute;
+    left: 5%;
+    top: 42%; /* Place the logo at the top of the container */
+     /* Place the logo at the left of the container */
+}
+
+#box2 {
+  width: 340px; /* Set the width of the image */
+  height: auto;
+  position: absolute;
+  right: 5%;
+  top: 42%;
+}
+
+#apriory{
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  font: italic small-caps bold 50px/2 cursive;
+  
+}
+
+#kmeans{
+  position: absolute;
+  right: 10%;
+  top: 60%;
+  font: italic small-caps bold 50px/2 cursive;
+}
+
+
+
+
+html,body{
+    height:100%;
+  }
+  .app{
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #2C5364);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #2C5364);
+  height:100vh;
+  width:100%;
+  }
+  ul{
+    display:block;
+    width:100%;
+    height:inherit;
+  }
+  ul{
+    list-style-type:none;
+  }
+  li:nth-child(1)
+  {
+    position:absolute;
+    left:10%;
+    height:30px;
+    width:30px;
+    background:rgba(255,255,255,.2);
+  }
+  li:nth-child(2)
+  {
+    position:absolute;
+    left:30%;
+    height:45px;
+    width:45px;
+    background:rgba(255,255,255,.2);
+  }
+  li:nth-child(3)
+  {
+    position:absolute;
+    left:50%;
+    height:70px;
+    width:70px;
+    background:rgba(255,255,255,.2);
+  }
+  li:nth-child(4)
+  {
+    position:absolute;
+    left:80%;
+    height:20px;
+    width:20px;
+    background:rgba(255,255,255,.2);
+  }
+  li{
+    animation:animate 15s linear 1s infinite;
+  }
+  
+  @keyframes animate{
+    from{
+      transform: translateY(+1500%) rotate(180deg)
+    }
+    to{
+      transform: translateY(-150%)
+        rotate(360deg)
+    }
+  }
